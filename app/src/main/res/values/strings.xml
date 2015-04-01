@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart_n_RunPrj</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

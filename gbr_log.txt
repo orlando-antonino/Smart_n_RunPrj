@@ -1,0 +1,124 @@
+Nexus 7 5.0.2
+
+03-16 16:05:22.595    6274-6274/com.letstart.extlib I/MainActivity﹕ put package name in the map
+03-16 16:05:22.609    6274-6274/com.letstart.extlib D/SecureLoaderFactory﹕ Download Resource Dir has been mounted at: /data/data/com.letstart.extlib/app_imported_cont
+03-16 16:05:22.612    6274-6274/com.letstart.extlib D/SecureLoaderFactory﹕ Dex Path has been modified into: /data/data/com.letstart.extlib/app_imported_cont/bxe9CfbDG8qOfpEwK-An58ii9nU=.apk:
+03-16 16:05:22.614    6274-6274/com.letstart.extlib D/CacheLogger﹕ Helper file was correctly stored on the device.
+03-16 16:05:22.617    6274-6274/com.letstart.extlib D/SecureLoaderFactory﹕ Dex Output Dir has been mounted at: /data/data/com.letstart.extlib/app_dex_classes
+03-16 16:05:22.637    6274-6274/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com.letstart.extlib
+03-16 16:05:22.637    6274-6274/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com.letstart
+03-16 16:05:22.637    6274-6274/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com
+03-16 16:05:22.638    6274-6274/com.letstart.extlib D/PackageNameTrie﹕ com.letstart has a certificate associated now.
+03-16 16:05:22.638    6274-6274/com.letstart.extlib D/PackageNameTrie﹕ com.letstart is the closest package name to the target com.letstart.extlib with an associated certificate for verification.
+03-16 16:05:23.120    6274-6274/com.letstart.extlib I/MainActivity﹕ created Secure Dex Class Loader Object
+03-16 16:05:23.123    6274-6274/com.letstart.extlib I/MainActivity﹕ class loaded: ExternalClass
+03-16 16:05:23.123    6274-6274/com.letstart.extlib I/External Class﹕ new instance!!!!!!
+03-16 16:05:23.123    6274-6274/com.letstart.extlib I/MainActivity﹕ loadedClasses: MainClassAct
+03-16 16:05:23.124    6274-6274/com.letstart.extlib D/AndroidRuntime﹕ Shutting down VM
+03-16 16:05:23.125    6274-6274/com.letstart.extlib E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    Process: com.letstart.extlib, PID: 6274
+    java.lang.RuntimeException: Unable to resume activity {com.letstart.extlib/com.letstart.trygr.MainActivity}: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.letstart.extlib/com.letstart.extlib.MainClassAct}; have you declared this activity in your AndroidManifest.xml?
+            at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2951)
+            at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2982)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2365)
+            at android.app.ActivityThread.access$800(ActivityThread.java:144)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:135)
+            at android.app.ActivityThread.main(ActivityThread.java:5221)
+            at java.lang.reflect.Method.invoke(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:372)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+     Caused by: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.letstart.extlib/com.letstart.extlib.MainClassAct}; have you declared this activity in your AndroidManifest.xml?
+            at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1761)
+            at android.app.Instrumentation.execStartActivity(Instrumentation.java:1485)
+            at android.app.Activity.startActivityForResult(Activity.java:3736)
+            at android.app.Activity.startActivityForResult(Activity.java:3697)
+            at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:817)
+            at android.app.Activity.startActivity(Activity.java:4007)
+            at android.app.Activity.startActivity(Activity.java:3975)
+            at com.letstart.trygr.MainActivity.onResume(MainActivity.java:115)
+            at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1241)
+            at android.app.Activity.performResume(Activity.java:6019)
+            at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2940)
+            at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2982)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2365)
+            at android.app.ActivityThread.access$800(ActivityThread.java:144)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:135)
+            at android.app.ActivityThread.main(ActivityThread.java:5221)
+            at java.lang.reflect.Method.invoke(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:372)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+S2 
+
+03-16 16:07:04.000  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.view.ViewGroup.onNestedScrollAccepted, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onNestedScrollAccepted
+03-16 16:07:04.005  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 11413: Landroid/view/ViewGroup;.onNestedScrollAccepted (Landroid/view/View;Landroid/view/View;I)V
+03-16 16:07:04.005  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6f at 0x0000
+03-16 16:07:04.005  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.view.ViewGroup.onStopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onStopNestedScroll
+03-16 16:07:04.005  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 11419: Landroid/view/ViewGroup;.onStopNestedScroll (Landroid/view/View;)V
+03-16 16:07:04.005  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6f at 0x0000
+03-16 16:07:04.005  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.support.v7.internal.widget.ActionBarOverlayLayout.stopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.setHideOnContentScrollEnabled
+03-16 16:07:04.005  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 9106: Landroid/support/v7/internal/widget/ActionBarOverlayLayout;.stopNestedScroll ()V
+03-16 16:07:04.005  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6e at 0x000e
+03-16 16:07:04.045  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.view.ViewGroup.onRtlPropertiesChanged, referenced from method android.support.v7.widget.Toolbar.onRtlPropertiesChanged
+03-16 16:07:04.045  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 11416: Landroid/view/ViewGroup;.onRtlPropertiesChanged (I)V
+03-16 16:07:04.045  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6f at 0x0007
+03-16 16:07:04.050  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+03-16 16:07:04.050  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 379: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+03-16 16:07:04.050  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6e at 0x0002
+03-16 16:07:04.050  22032-22032/com.letstart.extlib I/dalvikvm﹕ Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+03-16 16:07:04.050  22032-22032/com.letstart.extlib W/dalvikvm﹕ VFY: unable to resolve virtual method 401: Landroid/content/res/TypedArray;.getType (I)I
+03-16 16:07:04.050  22032-22032/com.letstart.extlib D/dalvikvm﹕ VFY: replacing opcode 0x6e at 0x0002
+03-16 16:07:04.105  22032-22032/com.letstart.extlib I/MainActivity﹕ put package name in the map
+03-16 16:07:04.110  22032-22032/com.letstart.extlib D/SecureLoaderFactory﹕ Download Resource Dir has been mounted at: /data/data/com.letstart.extlib/app_imported_cont
+03-16 16:07:04.115  22032-22032/com.letstart.extlib D/SecureLoaderFactory﹕ Dex Path has been modified into: /data/data/com.letstart.extlib/app_imported_cont/bxe9CfbDG8qOfpEwK-An58ii9nU=.apk:
+03-16 16:07:04.135  22032-22032/com.letstart.extlib D/CacheLogger﹕ Helper file was correctly stored on the device.
+03-16 16:07:04.135  22032-22032/com.letstart.extlib D/SecureLoaderFactory﹕ Dex Output Dir has been mounted at: /data/data/com.letstart.extlib/app_dex_classes
+03-16 16:07:04.165  22032-22036/com.letstart.extlib D/dalvikvm﹕ GC_CONCURRENT freed 254K, 14% free 9600K/11079K, paused 17ms+3ms, total 50ms
+03-16 16:07:04.165  22032-22032/com.letstart.extlib D/dalvikvm﹕ WAIT_FOR_CONCURRENT_GC blocked 17ms
+03-16 16:07:04.195  22032-22032/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com.letstart.extlib
+03-16 16:07:04.195  22032-22032/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com.letstart
+03-16 16:07:04.195  22032-22032/com.letstart.extlib D/PackageNameTrie﹕ Inserted a new entry for com
+03-16 16:07:04.195  22032-22032/com.letstart.extlib D/PackageNameTrie﹕ com.letstart has a certificate associated now.
+03-16 16:07:04.195  22032-22032/com.letstart.extlib D/PackageNameTrie﹕ com.letstart is the closest package name to the target com.letstart.extlib with an associated certificate for verification.
+03-16 16:07:05.480  22032-22032/com.letstart.extlib I/MainActivity﹕ created Secure Dex Class Loader Object
+03-16 16:07:05.480  22032-22032/com.letstart.extlib W/dalvikvm﹕ Class resolved by unexpected DEX: Lcom/letstart/extlib/ExternalClass;(0x419b28a8):0x4da12000 ref [Lcom/letstart/commonmodule/CommonInt;] Lcom/letstart/commonmodule/CommonInt;(0x419506e0):0x4d9de000
+03-16 16:07:05.480  22032-22032/com.letstart.extlib W/dalvikvm﹕ (Lcom/letstart/extlib/ExternalClass; had used a different Lcom/letstart/commonmodule/CommonInt; during pre-verification)
+03-16 16:07:05.480  22032-22032/com.letstart.extlib I/dalvikvm﹕ Failed resolving Lcom/letstart/extlib/ExternalClass; interface 1452 'Lcom/letstart/commonmodule/CommonInt;'
+03-16 16:07:05.480  22032-22032/com.letstart.extlib W/dalvikvm﹕ Link of class 'Lcom/letstart/extlib/ExternalClass;' failed
+03-16 16:07:05.480  22032-22032/com.letstart.extlib D/AndroidRuntime﹕ Shutting down VM
+03-16 16:07:05.480  22032-22032/com.letstart.extlib W/dalvikvm﹕ threadid=1: thread exiting with uncaught exception (group=0x40efa2a0)
+03-16 16:07:05.485  22032-22032/com.letstart.extlib E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation
+            at dalvik.system.DexFile.defineClass(Native Method)
+            at dalvik.system.DexFile.loadClassBinaryName(DexFile.java:211)
+            at dalvik.system.DexPathList.findClass(DexPathList.java:315)
+            at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:58)
+            at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+            at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+            at it.necst.grabnrun.SecureDexClassLoader.loadClass(SecureDexClassLoader.java:867)
+            at com.letstart.trygr.MainActivity.onResume(MainActivity.java:88)
+            at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1199)
+            at android.app.Activity.performResume(Activity.java:5280)
+            at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2629)
+            at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2667)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2140)
+            at android.app.ActivityThread.access$700(ActivityThread.java:140)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1237)
+            at android.os.Handler.dispatchMessage(Handler.java:99)
+            at android.os.Looper.loop(Looper.java:137)
+            at android.app.ActivityThread.main(ActivityThread.java:4921)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:511)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1027)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:794)
+            at dalvik.system.NativeStart.main(Native Method)
